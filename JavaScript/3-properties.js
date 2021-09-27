@@ -1,9 +1,10 @@
 'use strict';
 
 const person = {
-  name: 'Marcus',
-  city: 'Roma',
-  born: 121,
+  name: 'SerGay',
+  city: 'Ierusalim',
+  born: 1600,
+  friends: 'none',
 };
 
 if ('name' in person) {
@@ -49,8 +50,8 @@ const city = 'Rome';
 {
   const fn = (s) => s + 'Born';
   const person = {
-    name: 'Marcus Aurelius',
-    [fn('city')]: 'Roma',
+    name: 'Sergey Ivanovich',
+    [fn('city')]: 'Tajikistan',
   };
   console.dir({ person });
 }

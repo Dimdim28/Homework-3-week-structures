@@ -2,8 +2,8 @@
 
 // Object/Hash
 const person = {
-  name: 'Marcus',
-  city: 'Roma',
+  name: 'Dima',
+  city: 'Kiev',
   born: 121,
 };
 
@@ -18,12 +18,12 @@ console.dir({ person });
 
 // With getter
 const person2 = {
-  name: 'Marcus Aurelius',
+  name: 'Ivan Sergienko',
   get city() {
-    return 'Roma';
+    return 'Kiev';
   },
-  set city(value) {
-    console.log('Marcus remains in Roma');
+  set city(value = 'Kiev') {
+    console.log('Ivan remains in ' + value);
   },
 };
 

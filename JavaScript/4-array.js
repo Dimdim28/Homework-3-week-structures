@@ -7,6 +7,10 @@ letters.unshift('A');
 console.dir({ letters });
 letters.push('C');
 console.dir({ letters });
+console.dir(letters.pop());
+console.dir({letters});
+letters.push('D');
+console.dir({ letters });
 
 const numbers = [1, 2, 3];
 numbers.push(4);
